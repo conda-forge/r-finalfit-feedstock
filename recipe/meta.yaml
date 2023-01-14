@@ -1,4 +1,4 @@
-{% set version = '1.0.5' %}
+{% set version = "1.0.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,10 +11,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/finalfit_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/finalfit/finalfit_{{ version }}.tar.gz
-  sha256: c96d3f55de38a878bb05f2409be1de5645d2fc162c91393c996e81acebfdfc40
+  sha256: c12be933408b0a8ec4962ebe5e9b404ef99a0b1eafccf7f646627458f4af4b9a
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -77,11 +77,10 @@ test:
 about:
   home: https://github.com/ewenharrison/finalfit
   license: MIT
-  summary: Generate regression results tables and plots in final format for publication. Explore
-    models and export directly to PDF and 'Word' using 'RMarkdown'.
+  summary: Generate regression results tables and plots in final format for publication. Explore models and export directly to PDF and 'Word' using 'RMarkdown'.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENCE
 
 extra:
