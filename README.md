@@ -1,11 +1,11 @@
-About r-finalfit
-================
+About r-finalfit-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-finalfit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ewenharrison/finalfit
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-finalfit-feedstock/blob/main/LICENSE.txt)
 
 Summary: Generate regression results tables and plots in final format for publication. Explore models and export directly to PDF and 'Word' using 'RMarkdown'.
 
