@@ -1,4 +1,4 @@
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/finalfit_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/finalfit/finalfit_{{ version }}.tar.gz
-  sha256: c12be933408b0a8ec4962ebe5e9b404ef99a0b1eafccf7f646627458f4af4b9a
+  sha256: 4fb9fa3a8eae9ea80277ca3f256947d6f9485ab66ad2e3bbe429a586e79eda12
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
