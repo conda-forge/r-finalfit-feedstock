@@ -25,47 +25,47 @@ requirements:
 
   host:
     - r-base
-    - r-ggally
     - r-bdsmatrix
     - r-boot
     - r-broom
+    - r-cowplot
     - r-dplyr
     - r-forcats
+    - r-ggally
     - r-ggplot2
     - r-gridextra
     - r-lme4
     - r-magrittr
-    - r-mice
-    - r-proc
+    - r-mice >=3.17.0
     - r-pillar
+    - r-proc
     - r-purrr
     - r-scales
     - r-stringr
     - r-survival
     - r-tidyr >=1.0.0
-    - r-tidyselect
 
   run:
     - r-base
-    - r-ggally
     - r-bdsmatrix
     - r-boot
     - r-broom
+    - r-cowplot
     - r-dplyr
     - r-forcats
+    - r-ggally
     - r-ggplot2
     - r-gridextra
     - r-lme4
     - r-magrittr
-    - r-mice
-    - r-proc
+    - r-mice >=3.17.0
     - r-pillar
+    - r-proc
     - r-purrr
     - r-scales
     - r-stringr
     - r-survival
     - r-tidyr >=1.0.0
-    - r-tidyselect
 
 test:
   commands:
